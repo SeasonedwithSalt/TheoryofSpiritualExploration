@@ -1,0 +1,39 @@
+3 in and 3 outs
+
+trust protocol
+
+network validation protocol. (eg ensuring that feedback is attached to feedback inputs)
+this should likely be an aspect of the rest protocol.
+
+dictionary protocol
+
+communication protocol
+
+callibration (probably recursive) protocol for merging the data from 3 implementations.
+This callibration also involves validating that there are 3 methods being used, eg that dendtrites are following the rules of dendrites.
+
+node death protocol
+
+node replication protocol
+
+immune protocol. (this is related to the callibration protocol)
+includes self-flags and validation of the flags.
+(this means nodes/dendrites that are actually functional as 'cells' and are mobile.)
+
+quarantine protocol
+
+obscuring protocol? something to guarentee that while transparancy may be helpful, the complete internals are never shown
+and never needed. this might also involve kinship code tracking family lines or something.
+
+It should not be aware what level it is operating at, that is, the design should be functionally
+consistent through all levels of implementation, though each level should be kinda "aware" of its internal implementation. eg able to adjust/edit
+and at least 3 levels of implementation are needed, tbd if there's some sort of unit boundary protocol.
+
+everything needs 3 distinct implementations, each unit is made of 3 seperate subunits that have distinct encoding.
+each skill to train, should have 2 distinct implimentations (at least) to train and callibrate.
+ideally differing implementations that use different modalities (eg sight vs sound)
+these skill can be learned from neural nets/responsive trained AI.
+
+the three types of subunits are "dendrite" "axon" and "synapse"
+
+reward/motivation seems like it needs some attention. but that's just a built in response to feedback.
